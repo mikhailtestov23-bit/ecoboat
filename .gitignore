@@ -1,0 +1,12 @@
+node_modules
+dist
+.env
+.env.local
+.npm-cache
+.deploy-home
+.vercel
+.ms-playwright
+artifacts
+test-results
+playwright-report
+*.tsbuildinfo

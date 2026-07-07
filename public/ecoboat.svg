@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Ecoboat</title>
+  <rect width="64" height="64" rx="8" fill="#0f766e"/>
+  <path d="M10 42c8 4 17 6 26 4 7-1 13-4 18-9l-7 14H19L10 42Z" fill="#e2f3ef"/>
+  <path d="M18 33h24l7 7H13l5-7Z" fill="#14532d"/>
+  <path d="M29 19h13v14H26l3-14Z" fill="#facc15"/>
+  <path d="M12 48c7 2 12 2 19 0 7-2 13-2 21 0" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round"/>
+</svg>

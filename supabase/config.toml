@@ -1,0 +1,16 @@
+project_id = "ecoboat"
+
+[api]
+enabled = true
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[auth]
+enabled = true
+site_url = "http://127.0.0.1:5173"
+additional_redirect_urls = []
+enable_signup = false
+
+[db]
+major_version = 17
