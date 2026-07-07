@@ -9,7 +9,7 @@ export function CameraRig() {
   useFrame(({ camera }, delta) => {
     const boatPosition = useGameStore.getState().boatPosition;
     desiredPosition.set(boatPosition.x, 29, boatPosition.z + 35);
-    target.set(boatPosition.x, 0.1, boatPosition.z - 3);
+    target.set(boatPosition.x, 3, boatPosition.z - 3);
 
     camera.position.lerp(desiredPosition, 1 - Math.exp(-3.5 * delta));
     camera.lookAt(target);

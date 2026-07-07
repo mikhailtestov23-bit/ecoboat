@@ -3,6 +3,7 @@ import { CameraRig } from "./CameraRig";
 import { GameLoop } from "./GameLoop";
 import { Lake } from "./Lake";
 import { Lighting } from "./Lighting";
+import { MountainBackdrop } from "./MountainBackdrop";
 import { Obstacles } from "./Obstacles";
 import { Predators } from "./Predators";
 import { Storms } from "./Storms";
@@ -15,6 +16,7 @@ export function GameScene() {
   return (
     <>
       <Lighting />
+      <MountainBackdrop />
       <Lake />
       <TrashField items={trash} />
       <Obstacles />
